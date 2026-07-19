@@ -39,7 +39,7 @@ This is the latest polished version with:
 
 Fresno County has amazing people and organizations doing hard work every day. This little website just makes it **easier** for regular people to find that help without getting lost in 10 tabs or confusing phone trees.
 
-No judgment. No paperwork to start. Just tap and call.
+No judgment. No paperwork to start. Just tap and call. Never created prior to this hub; listed all districts and who is the appointed councilman/womanin that specific district with their office contact. Last but npt least, one-click brings you to the town council meetings durimg times life is in the way. You mstter; ALWAYS!!
 
 ## 📝 Legal TM and Ownership and rights and copywrite disclosure
 we own 100% of this application, idea, design, graphics, and Intellectual Property & Ownership
