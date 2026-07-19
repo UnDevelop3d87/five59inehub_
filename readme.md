@@ -1,4 +1,4 @@
-# 🌻 Fresno Resource Hub — Clean Build
+# 🌻 Fresno Resource Hub DBA FIVE59INEHUB🌻 — Clean Build
 
 **A beautiful, free, single-file Progressive Web App (PWA)** for Fresno County community resources.
 
@@ -42,9 +42,9 @@ Fresno County has amazing people and organizations doing hard work every day. Th
 No judgment. No paperwork to start. Just tap and call. Never created prior to this hub; listed all districts and who is the appointed councilman/womanin that specific district with their office contact. Last but not least, one-click brings you to the town council meetings durimg times life is in the way. You mstter; ALWAYS!!
 
 ## 📝 Legal TM and Ownership and rights and copywrite disclosure
-we own 100% of this application, idea, design, graphics, and Intellectual Property & Ownership
+We own 100% of this application, idea, design, graphics, and Intellectual Property & Ownership
 
-Fresno Resource Hub™ / Five59ine™ owns all related content, the names and logo, all original designs, written content, layout, and the overall web application concept and creation. The names "Fresno Resource Hub™," "Five59ine™," the acronyms "F.R.H.," "FRH," "5.59," and the associated sunflower logo are claimed trademarks of the creator. Unauthorized reproduction, distribution, modification, or commercial use of the Site's design, layout, source code, branding, names, or content is strictly prohibited without express written permission.
+Fresno Resource Hub🌻™ / Five59ine🌻™ owns all related content, the names and logo, all original designs, written content, layout, and the overall web application concept and creation. The names "Fresno Resource Hub🌻™," "Five59ine🌻™," the acronyms "F.R.H.," "FRH🌻," "5.59," and the associated sunflower logo are claimed trademarks of the creator. Unauthorized reproduction, distribution, modification, or commercial use of the Site's design, layout, source code, branding, names, or content is strictly prohibited without express written permission.
 
 
 ## 📜 License & Credits
