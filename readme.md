@@ -31,6 +31,8 @@ This is the latest polished version with:
    - Tap any category pill (Food, Housing, Jobs, etc.)
    - Use the top search bar
    - Tap ⭐ to save favorites (they stay even if you close the tab)
+   - Add to home screen icon 
+   - Scoll to top button permanently on page
 
 3. **Get help fast**:
    - Tap the blue "📞 Call" button on any card — it calls the real phone number
