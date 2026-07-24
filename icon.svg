@@ -1,0 +1,45 @@
+<!-- Fresno Resource Hub App Icon SVG - 120x120 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Fresno Resource Hub icon">
+  <defs>
+    <linearGradient id="gA" x1="0" x2="1">
+      <stop offset="0" stop-color="#0E4B5A"/>
+      <stop offset="1" stop-color="#071026"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background rounded square -->
+  <rect x="0" y="0" width="120" height="120" rx="18" ry="18" fill="url(#gA)"/>
+
+  <!-- fields -->
+  <g transform="translate(0,44)">
+    <rect x="0" y="44" width="120" height="28" fill="#0B3A12"/>
+    <path d="M0 56 Q20 44 40 56 T80 56 T120 56" fill="none" stroke="#0E4B5A" stroke-width="1.6" opacity="0.95"/>
+  </g>
+
+  <!-- skyline -->
+  <g transform="translate(8,64)" fill="#07121a">
+    <path d="M0 28 L8 18 L16 22 L24 12 L32 18 L40 6 L48 18 L56 12 L64 22 L72 18 L80 6 L88 18 L96 12 L104 22 L112 18 L120 28 L120 60 L0 60 Z"/>
+  </g>
+
+  <!-- sun left -->
+  <g transform="translate(28,28)">
+    <circle cx="0" cy="0" r="8" fill="#FFD98A"/>
+  </g>
+
+  <!-- crescent moon right -->
+  <g transform="translate(92,28)">
+    <circle cx="0" cy="0" r="9" fill="#E6F2FF" opacity="0.98"/>
+    <circle cx="3" cy="-2" r="9" fill="#071026"/>
+  </g>
+
+  <!-- shooting star (glow) -->
+  <g id="star" transform="translate(18,12)" opacity="0.0" filter="url(#glow)">
+    <path d="M0 0 L18 -6 L16 -4 L28 -10" stroke="#fff8d6" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+    <circle cx="0" cy="0" r="1.6" fill="#fff8d6"/>
+  </g>
+</svg>
+
