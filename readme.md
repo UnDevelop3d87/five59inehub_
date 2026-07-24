@@ -9,7 +9,9 @@ This is the latest polished version with:
 - Improved mobile header spacing and touch targets
 - Smooth category scrolling with snap
 - Donation system (Cash App, Venmo, etc.)
-- Events section + civic info
+- Events section + civic info with mayor bio
+- Links to the town hall meetings and add the dates and times in the calendar
+- Creative unsplash icon tabs for every other section. allow entertainment and events to have their own
 
 ---
 
