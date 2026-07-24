@@ -1,0 +1,84 @@
+*** Begin Patch
+*** Update File: index.html
+@@
+-<!-- existing hero start -->
+-<section id="fresno-hero" class="hero" aria-label="Fresno skyline hero">
+-  <!-- legacy hero content removed by patch -->
+-</section>
+-<!-- existing hero end -->
++<!-- Fresno Hero Section -->
++<section id="fresno-hero" class="hero" aria-label="Fresno skyline hero">
++  <!-- Background gradient sky -->
++  <div class="hero-sky" aria-hidden="true">
++    <svg class="sky-svg" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice" role="img">
++      <defs>
++        <linearGradient id="skyGrad" x1="0" x2="1" y1="0" y2="1">
++          <stop offset="0%" stop-color="#071026"/>
++          <stop offset="45%" stop-color="#0b2a3f"/>
++          <stop offset="100%" stop-color="#0f1b2b"/>
++        </linearGradient>
++        <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
++          <feGaussianBlur stdDeviation="12" result="b"/>
++          <feBlend in="SourceGraphic" in2="b"/>
++        </filter>
++        <pattern id="fieldPattern" width="200" height="80" patternUnits="userSpaceOnUse">
++          <path d="M0 40 Q50 10 100 40 T200 40 V80 H0 Z" fill="#0b3a12" opacity="0.95"/>
++        </pattern>
++        <mask id="crescentMask">
++          <rect width="100%" height="100%" fill="white"/>
++          <circle cx="0" cy="0" r="0" fill="black"/>
++        </mask>
++      </defs>
++
++      <rect width="100%" height="100%" fill="url(#skyGrad)"/>
++
++      <g id="left-sun-clouds" transform="translate(160,120)">
++        <circle class="sun" cx="0" cy="0" r="36" fill="#FFD98A" opacity="0.95"/>
++        <g class="clouds" transform="translate(80, -10)">
++          <ellipse cx="0" cy="0" rx="48" ry="20" fill="#ffffff" opacity="0.08"/>
++          <ellipse cx="40" cy="6" rx="36" ry="16" fill="#ffffff" opacity="0.06"/>
++          <ellipse cx="-30" cy="8" rx="30" ry="12" fill="#ffffff" opacity="0.05"/>
++        </g>
++        <g class="birds" transform="translate(40,-40)" fill="#ffffff" opacity="0.9">
++          <path d="M0 0 q8 -6 16 0" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
++          <path d="M24 6 q8 -6 16 0" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
++        </g>
++      </g>
++
++      <g id="fields" transform="translate(800,480)">
++        <rect x="-900" y="-120" width="1800" height="240" fill="url(#fieldPattern)" class="field-rect"/>
++        <rect x="-900" y="-80" width="1800" height="40" fill="#0e4b1a" opacity="0.12"/>
++        <rect x="-900" y="-40" width="1800" height="40" fill="#0b3a12" opacity="0.08"/>
++      </g>
++
++      <g id="skyline" transform="translate(0,420)" fill="#07121a" opacity="0.95">
++        <path d="M0 80 L40 60 L80 70 L120 50 L160 60 L200 40 L260 60 L320 50 L380 70 L440 60 L500 40 L560 60 L640 50 L720 70 L800 40 L880 60 L960 50 L1040 70 L1120 60 L1200 40 L1280 60 L1360 50 L1440 70 L1600 80 L1600 200 L0 200 Z"/>
++      </g>
++
++      <g id="moon-group" transform="translate(1360,120)" aria-hidden="true">
++        <circle class="moon-core" cx="0" cy="0" r="34" fill="#e6f2ff" opacity="0.95"/>
++        <circle class="moon-cut" cx="10" cy="-4" r="34" fill="#071026"/>
++      </g>
++
++      <g id="shooting-star" transform="translate(-200,-200)" opacity="0">
++        <path d="M0 0 L40 -12 L36 -8 L60 -20" stroke="#fff8d6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
++        <circle cx="0" cy="0" r="2.5" fill="#fff8d6"/>
++      </g>
++    </svg>
++  </div>
++
++  <div class="hero-foreground" aria-hidden="true">
++    <div class="vignette"></div>
++  </div>
++
++  <div class="hero-content" role="region" aria-label="Fresno Resource Hub hero content">
++    <h1 class="hero-title">Fresno Resource Hub</h1>
++    <p class="hero-sub">One Hub. Every Resource. Find help, give help, connect.</p>
++    <div class="hero-cta">
++      <a class="btn primary" href="#resources">Explore Resources</a>
++      <a class="btn ghost" href="#donate">Donate</a>
++    </div>
++  </div>
++</section>
+*** End Patch
+
